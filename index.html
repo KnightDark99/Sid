@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Main Redirect</title>
+    <script>
+        // List of redirect folders
+        const redirectFolders = ['Hoyoverse', 'Anime', 'redirect3'];
+
+        // Randomly select a folder
+        const randomFolder = redirectFolders[
+            Math.floor(Math.random() * redirectFolders.length)
+        ];
+
+        // Redirect to the selected folder
+        window.location.href = `/${randomFolder}/`;
+    </script>
+</head>
+<body>
+</body>
+</html>
